@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    php72-web:
+        container_name: php72-web
+        image: php72/web
+        build: ./web
+        volumes:
+            - ../:/var/www/docker-php72
+        ports:
+            - '80:80'

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    php72-web:
+        container_name: php72-web
+        image: php72/web
+        build: ./web
+        ports:
+            - '80:80'

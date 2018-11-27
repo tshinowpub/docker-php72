@@ -1,0 +1,7 @@
+supervisord.pid
+.idea/
+
+#=====================================
+# docker-compose
+#=====================================
+docker-compose.override.yml
